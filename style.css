@@ -1,0 +1,111 @@
+/* Layer 4 */
+#ie7console .layer4 {
+	height: 300px;
+	width: 100%;
+	position: fixed;
+	left: 0px;
+	bottom: 0px;
+	border-top: 1px solid #D4D0C8;
+}
+
+/* Layer 3 */
+#ie7console .layer3 {
+	position: relative;
+	cursor: n-resize;
+	border-top: 1px solid #FFFFFF;
+	border-left: 1px solid #FFFFFF;
+}
+
+/* Layer 2 */
+#ie7console .layer2 {
+	position: relative;
+	cursor: n-resize;
+	border-top: 4px solid #D4D0C8;
+	border-left: 2px solid #D4D0C8;
+	border-right: 2px solid #D4D0C8;
+}
+
+/* Layer 1 */
+#ie7console .layer1 {
+	cursor: default;
+	border-top: 1px solid #808080;
+	border-left: 1px solid #808080;
+	border-right: 1px solid #FFFFFF;
+}
+
+/* Inner */
+#ie7console .inner {
+	position: relative;
+	height: 300px;
+	border-top: 1px solid #FFFFFF;
+	border-left: 1px solid #FFFFFF;
+	border-right: 1px solid #808080;
+	background-color: #D4D0C8;
+}
+
+#ie7console .text {
+	display: block;
+	position: absolute;
+	top: 30px;
+	bottom: 16px;
+	right: 5px;
+	left: 5px;
+	height: auto;
+	overflow: auto;
+	background-color: #FFFFFF;
+	font-family: monospace;
+	font-size: 12px;
+	padding: 3px;
+
+}
+
+#ie7console .close {
+	position: absolute;
+	right: 8px;
+	top: 2px;
+	padding: 5px;
+	border:1px solid #D4D0C8;
+	width: 14px;
+	height: 12px;
+}
+
+#ie7console .close:hover {
+	border-top: 1px solid #FFFFFF;
+	border-left: 1px solid #FFFFFF;
+	border-bottom: 1px solid #808080;
+	border-right: 1px solid #808080;
+}
+
+#ie7console .minimize {
+	position: absolute;
+	right: 60px;
+	top: 2px;
+	padding: 5px;
+	border:1px solid #D4D0C8;
+	width: 14px;
+	height: 12px;
+}
+
+#ie7console .minimize:hover {
+	border-top: 1px solid #FFFFFF;
+	border-left: 1px solid #FFFFFF;
+	border-bottom: 1px solid #808080;
+	border-right: 1px solid #808080;
+}
+
+#ie7console .popout {
+	position: absolute;
+	right: 34px;
+	top: 2px;
+	padding: 5px;
+	border:1px solid #D4D0C8;
+	width: 14px;
+	height: 12px;
+}
+
+#ie7console .popout:hover {
+	border-top: 1px solid #FFFFFF;
+	border-left: 1px solid #FFFFFF;
+	border-bottom: 1px solid #808080;
+	border-right: 1px solid #808080;
+}
